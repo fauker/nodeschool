@@ -1,3 +1,3 @@
 #Nodeschool
 
-My exercises and solutions for nodeschoo.io :smile:
+My exercises and solutions for nodeschool.io :smile: :pencil:
