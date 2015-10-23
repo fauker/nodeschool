@@ -1,5 +1,3 @@
-var total = 0;
-for (var i = 2; i < process.argv.length; i++) {
-	total += Number(process.argv[i]);		
-};
-console.log(total);
+var fs = require('fs')
+var lines = fs.readFileSync(process.argv[2], 'utf8').split('\n').length -1
+console.log(lines)
