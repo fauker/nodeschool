@@ -1,6 +1,6 @@
 var bl = require('bl')
 var http = require('http')
-var arg = proccess.argv[2];
+var arg = process.argv[2];
 
 http.get(arg, function (response) {
 	response.pipe(bl(function (err, data) {
@@ -8,6 +8,6 @@ http.get(arg, function (response) {
 			console.log('Error: ' + err)	
 
 		console.log(data.length)
-		console.log(data)
+		console.log(data.toString())
 	}))
 })
